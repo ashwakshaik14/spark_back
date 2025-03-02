@@ -22,7 +22,7 @@ if (!process.env.MONGO_URI) {
 }
 
 // CORS Setup (Allow specific origins)
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["https://linkspark.onrender.com","http://localhost:5173"];
 app.use(
   cors({
     origin: (origin, callback) => {
